@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The exTHmUI Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -28,12 +28,6 @@ $(call inherit-product-if-exists, build/target/product/embedded.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
-# Inherit proprietary files
-$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
-
-# Firmware
-$(call inherit-product, vendor/xiaomi-firmware/platina/firmware.mk)
 
 # Device Path
 DEVICE_PATH := device/xiaomi/platina

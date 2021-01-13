@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2018 The exTHmUI Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_platina.mk
+    $(LOCAL_DIR)/exthm_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_platina-eng \
-    aosp_platina-userdebug \
-    aosp_platina-user
+    exthm_platina-eng \
+    exthm_platina-userdebug \
+    exthm_platina-user

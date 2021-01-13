@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The exTHmUI Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -146,9 +146,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_VERSION := 4.4
 TARGET_KERNEL_SOURCE := kernel/xiaomi/platina
-TARGET_KERNEL_CONFIG := acrux_defconfig
+TARGET_KERNEL_CONFIG := platina_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-elf-
-KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/aarch64/gcc-9/bin
+KERNEL_TOOLCHAIN := $(PWD)/gcc/bin
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
